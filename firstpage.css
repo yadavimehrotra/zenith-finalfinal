@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.kodchasan-regular {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kodchasan", sans-serif;
+  background-color: transparent;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.rsidenav {
+  display: flex;
+  margin-left: 250px;
+}
+.signup {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  margin: 20px;
+}
+.btn-signup {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  border: hidden;
+  background: rgb(132, 184, 100);
+  color: #216321;
+}
+
+.login {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  margin: 20px;
+}
+.btn-login {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  border: hidden;
+  color: #3f9d3f;
+}
+.search {
+  width: 280px;
+  height: 30px;
+  background: rgb(132, 184, 100);
+  border-radius: 40px;
+  border: hidden;
+  position: relative;
+  /* left: 300px; */
+  margin: 20px;
+  /* margin-right: 380px; */
+}
+
+#search {
+  width: 280px;
+  height: 30;
+  background: rgb(132, 184, 100);
+  border-radius: 40px;
+}
+.home {
+  margin: 20px;
+  height: 100px;
+}
+
+.ghome {
+  border-radius: 10px;
+  background: rgb(132, 184, 100);
+  height: 30px;
+  width: 50px;
+  color: #216321;
+}
+.goto {
+  color: #3f9d3f;
+}
+
+body {
+  background-image: url("pitchdeck.png");
+}
+
+h2 {
+  background: transparent;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  color: antiquewhite;
+  margin: 10px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+.int {
+  color: antiquewhite;
+  text-align: center;
+  margin: 10px;
+}
+.b1 {
+  background: white;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.first {
+  color: #9ecea3;
+}
+.tbox {
+  border-radius: 10px;
+  background: linear-gradient(#0b5a58 10%, #56cbc8 52%);
+
+  margin: 10px;
+  width: 400px;
+  padding: 10px;
+}
+.tbox2 {
+  border-radius: 10px;
+  background: linear-gradient(#409b42 0%, #86e24d 61%);
+
+  margin: 10px;
+  width: 400px;
+  padding: 10px;
+}
+
+.int83 {
+  width: 100px;
+  height: 100px;
+}
+.tbox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+p {
+  background: transparent;
+}
+.hey {
+  background: transparent;
+}
+
+.box12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-top: 20px;
+}
+
+.int2 {
+  color: antiquewhite;
+  text-align: center;
+}
+.box1 {
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  background: linear-gradient(#7fa85d 29%, #4e9b99 85%);
+  margin: 40px;
+  /* display: flex; */
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.imga {
+  margin: 10px;
+  background: transparent;
+  height: 100px;
+}
+a {
+  font-size: 20px;
+  text-align: center;
+}

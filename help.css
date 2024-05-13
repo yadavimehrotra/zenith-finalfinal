@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.kodchasan-regular {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kodchasan", sans-serif;
+  background-color: transparent;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+.rsidenav {
+  display: flex;
+  margin-left: 250px;
+}
+.signup {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  margin: 20px;
+}
+.btn-signup {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  border: hidden;
+  background: rgb(132, 184, 100);
+  color: #216321;
+}
+
+.login {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  margin: 20px;
+}
+.btn-login {
+  width: 127.19;
+  height: 30;
+  border-radius: 20px;
+  border: hidden;
+  color: #3f9d3f;
+}
+.search {
+  width: 280px;
+  height: 30px;
+  background: rgb(132, 184, 100);
+  border-radius: 40px;
+  border: hidden;
+  position: relative;
+  left: 300px;
+  margin: 20px;
+  margin-right: 380px;
+}
+
+#search {
+  width: 280px;
+  height: 30;
+  background: rgb(132, 184, 100);
+  border-radius: 40px;
+}
+.home {
+  margin: 20px;
+  height: 100px;
+}
+
+.ghome {
+  border-radius: 10px;
+  background: rgb(132, 184, 100);
+  height: 30px;
+  width: 50px;
+  color: #216321;
+}
+.goto {
+  color: #3f9d3f;
+}
+
+body {
+  background-image: url("pitchdeck.png");
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hi {
+  text-align: center;
+}
+
+.toptwo {
+  background: #4e9b99;
+  height: 100px;
+  width: 200px;
+  margin: 5px;
+  border: none;
+  margin-top: 20px;
+}
+.middletwo {
+  background: #7fa75d;
+  height: 100px;
+  width: 200px;
+  margin: 5px;
+  border: none;
+  margin-top: 20px;
+}
